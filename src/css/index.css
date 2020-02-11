@@ -5,7 +5,10 @@ body {
 .cover {
     width: 400px;
     height: 400px;
+<<<<<<< HEAD
     background-color: yellow;
+=======
+>>>>>>> develop
     z-index: 20;
 }
 
