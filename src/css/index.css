@@ -5,36 +5,35 @@ body {
 .cover {
     width: 400px;
     height: 400px;
-    background-color: yellowgreen;
+    background-color: black;
     z-index: 20;
 }
 
 .disco {
     width: 400px;
     height: 400px;
-    background: conic-gradient(red 180deg, #4aae9b);
+    background-color: black;
     border-radius: 50%;
     margin-left: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 10;
-}
-
-.linea-1 {
-    width: 350px;
-    height: 360px;
-    border: 1px solid black;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: 
+        
+        linear-gradient(220deg, transparent 0%, rgba(42, 41, 40, .85) 40%) no-repeat 100% 0,
+        repeating-radial-gradient(
+            #2a2928,
+            #2a2928 4px,
+            #ada9a0 5px,
+            #2a2928 6px
+        );
 }
 
 .pegatina {
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
+    width: 160px;
+    height: 160px;
+    background-color: red;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -42,8 +41,8 @@ body {
 }
 
 .hole {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     border-radius: 50%;
 }
