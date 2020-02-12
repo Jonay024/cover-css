@@ -5,7 +5,7 @@ body {
 .cover {
     width: 400px;
     height: 400px;
-    background-color: yellow;
+    background-color: black;
     z-index: 20;
 }
 
@@ -20,14 +20,23 @@ body {
     align-items: center;
     z-index: 10;
     background: 
-        
-        linear-gradient(220deg, transparent 0%, rgba(42, 41, 40, .85) 40%) no-repeat 100% 0,
-        repeating-radial-gradient(
-            #2a2928,
-            #2a2928 4px,
-            #ada9a0 5px,
-            #2a2928 6px
-        );
+      
+      linear-gradient(
+        240deg, transparent 0%, rgba(40, 40, 40, .70) 50%) no-repeat 100% 0,
+      
+      linear-gradient(
+        240deg, transparent 0%, rgba(42, 41, 40, .70) 90%),
+      
+      linear-gradient(
+        240deg, transparent 0%, rgba(42, 41, 40, .70) 90%), 
+      
+      repeating-radial-gradient(
+        #2a2928,
+        #2a2928 8px,
+        #ada9a0 9px,
+        #2a2928 10px
+      );
+    box-shadow: 0px 0px 5px 0px rgba(42,41,40,1);
 }
 
 .pegatina {
